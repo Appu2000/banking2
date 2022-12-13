@@ -1,0 +1,15 @@
+.mailbox:hover{
+    background-color: #1f83f5;
+    transition: 1s;
+}
+
+.mailbox{
+    width: 90%;
+    height: 90px;
+    background-color: #388def;
+    margin: 10px 0 0 20px;
+    color: white;
+    display: flex;
+
+
+}

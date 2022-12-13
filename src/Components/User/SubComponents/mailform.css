@@ -1,0 +1,36 @@
+/* body{margin-top:20px; background-color: #151b1e;} */
+.email-app {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border: 1px solid #e1e6ef;
+    padding: 50px 150px;
+    height: 100%;
+}
+
+.email-app nav {
+    flex:0 1 30%;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-right: 1px solid #e1e6ef;
+    justify-content: baseline;
+    padding-bottom: 10px;
+    /* height: fit-content; */
+}
+
+.email-app nav .nav .nav-item {
+    position: relative;
+}
+
+
+.email-app main {
+    min-width: 0;
+    flex: 1;
+    /* padding: 25px; */
+}
+
+.main{
+    height: 500px;
+    margin-bottom: 0px;
+    /* background-color: aqua; */
+}
